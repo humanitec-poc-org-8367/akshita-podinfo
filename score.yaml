@@ -23,4 +23,3 @@ resources:
     type: s3
     properties:
       bucket:
-      region:
