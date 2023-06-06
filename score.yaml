@@ -17,7 +17,7 @@ containers:
       S3_REGION: ${resources.assets.region}
 
 resources:
-  dns: # We need a DNS record to point to the service 
+  dns: 
     type: dns
   bucket:  
     type: s3
