@@ -1,4 +1,4 @@
-name: Deploy Heather-podinfo-test
+name: Deploy akshita-podinfo
 
 on:
   push:
