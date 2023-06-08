@@ -1,7 +1,7 @@
 apiVersion: score.dev/v1b1
 
 metadata:
-  name: "heather-podinfo-test"
+  name: "akshita-podinfo-test"
 
 service:
   ports:
@@ -13,7 +13,6 @@ containers:
   frontend:
     variables:
       HELLO: WORLD
-      HELLOFOCKS: WORLD
       S3_BUCKET: ${resources.assets.bucket}
       S3_REGION: ${resources.assets.region}
 
