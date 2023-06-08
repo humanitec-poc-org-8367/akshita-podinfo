@@ -13,6 +13,7 @@ containers:
   frontend:
     variables:
       HELLO: WORLD
+      HELLOFOCKS: WORLD
       S3_BUCKET: ${resources.assets.bucket}
       S3_REGION: ${resources.assets.region}
 
